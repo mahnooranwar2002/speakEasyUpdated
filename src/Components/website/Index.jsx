@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
+import Footer from "./Footer";
 
 const Index = () => {
   return (
@@ -380,12 +381,7 @@ const Index = () => {
                   <p>Individuals Seeking Personal Growth</p>
                 </li>
               </ul>
-              <div className="col">
-                <span>
-                  <i class="ri-phone-line"></i>
-                </span>
-                <p>Client Support (888) 4000-2424</p>
-              </div>
+             
             </div>
           </div>
           <div className="left-wrapper">
@@ -438,62 +434,7 @@ const Index = () => {
           </form>
         </div>
       </div>
-      <footer>
-        <div className="container" id="footer">
-          <div className="footerbox">
-            <h3>SpeakEasy</h3>
-          </div>
-          <div className="footerbox">
-            <span>Services</span>
-            <ul>
-              <li>
-                <a href="">Individual Therapy</a>
-              </li>
-               <li>
-                <a href="">Family Counseling</a>
-              </li>
-               <li>
-                <a href="">Group Therapy</a>
-              </li>
-               <li>
-                <a href="">Child Therapy</a>
-              </li>
-               <li>
-                <a href="">career Counseling</a>
-              </li>
-            </ul>
-          </div>
-          <div className="footerbox">
-            <span>Company</span>
-                     <ul>
-              <li>
-                <a href="">Home</a>
-              </li>
-               <li>
-                <a href="">About</a>
-              </li>
-               <li>
-                <a href="">Service</a>
-              </li>
-               <li>
-                <a href="">Contact us</a>
-              </li>
-           
-            </ul>
-          </div>
-          <div className="footerbox">
-            <p>Signup our newsletter to get update information, news, insight or promotions.</p>
-            <form action="">
-              <input type="text" className="input"/>
-              <input type="submit" value="Submit" className="btn" />
-            </form>
-          </div>
-          
-        </div>
-        <div className="container" id="info">
-          <p>created by <span>Mahnoor Anwar & Falak Naz</span></p>
-        </div>
-      </footer>
+   <Footer></Footer>
     </>
   );
 };
